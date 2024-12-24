@@ -585,10 +585,10 @@ class DblSidedTool(AppTool):
             self.ui.sr_frame.show()
 
     def on_bbox_coordinates(self):
-        xmin = Inf
-        ymin = Inf
-        xmax = -Inf
-        ymax = -Inf
+        xmin = inf
+        ymin = inf
+        xmax = -inf
+        ymax = -inf
 
         obj_list = self.app.collection.get_selected()
         if not obj_list:

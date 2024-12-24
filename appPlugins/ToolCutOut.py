@@ -2206,10 +2206,10 @@ class CutOut(AppTool):
 
         def bounds_rec(obj):
             try:
-                minx = Inf
-                miny = Inf
-                maxx = -Inf
-                maxy = -Inf
+                minx = inf
+                miny = inf
+                maxx = -inf
+                maxy = -inf
 
                 work_geo = obj.geoms if isinstance(obj, (MultiPolygon, MultiLineString)) else obj
                 for k in work_geo:

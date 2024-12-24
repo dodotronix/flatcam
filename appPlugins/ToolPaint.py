@@ -2742,10 +2742,10 @@ class ToolPaint(AppTool, Gerber):
     def paint_bounds(geometry):
         def bounds_rec(o):
             if type(o) is list:
-                minx = Inf
-                miny = Inf
-                maxx = -Inf
-                maxy = -Inf
+                minx = inf
+                miny = inf
+                maxx = -inf
+                maxy = -inf
 
                 for k in o:
                     try:
