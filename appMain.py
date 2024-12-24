@@ -114,7 +114,7 @@ from appWorkerStack import WorkerStack
 # App Plugins
 from appPlugins import *
 
-from numpy import Inf
+from numpy import inf
 
 # App Translation
 import gettext

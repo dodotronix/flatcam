@@ -16,7 +16,7 @@ import logging
 from copy import deepcopy
 import simplejson as json
 import sys
-from numpy import Inf
+from numpy import inf
 
 from shapely import Polygon, MultiPolygon, box, Point, LineString, MultiLineString, LinearRing
 from shapely.ops import unary_union, linemerge
